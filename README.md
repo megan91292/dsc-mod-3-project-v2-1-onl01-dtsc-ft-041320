@@ -25,17 +25,8 @@ Data:
 * ModelData.csv
 * newdata.csv
 
-
-Cleaning:Exploring:
-Contains notebooks where data cleaning and exploring was done
-* CleaningData.ipynb
-* Exploring-my-Data.ipynb
-* GettingRidofCorrelationissues.ipynb 
-
 Models:
 * Final_Model.ipynb
-
-
 
 Images:
 * Contains array of images that are use in the powerpoint pdf
@@ -63,22 +54,22 @@ Hawaii, Alaska and Arizona have the lowest churn rates
 
 <br>
  <br>
- <img src ='images/churnstate.png'>
+ <img src ='Images/churnstate.png'>
 
 <br>  <br>
 <h4>Question 2: Does monthly charge effct churn?</h4>
 The average monthly charge for customers who remain with the company is $59, compared with $67 for customers who churn. From the below, it is clear that customers who churn come in on a cheap plan, approx $50 per month, which after a year jumps up to $65 per month. This would lead us to believe that these customers come in on some sort of promotional plan. Compared with customers who remain with the company, the average charge stays very constant
-<img src ='images/monthlycharge.png'>
+<img src ='Images/monthlycharge.png'>
 
 
-<img src ='images/charge_tenor.png'>
+<img src ='Images/charge_tenor.png'>
 
 <br>   <br>
 <h4>Question 3: Do Add-ons affect churn?</h4>
 Nearly 50% of customers who have an international plan terminate their contract. This shows that customers are very unhappy with this plan.
 
 <br>  <br>
-<img src ='images/addon.png'> 
+<img src ='Images/addon.png'> 
 
 
 <h2> Data Preparation</h2>
@@ -106,10 +97,10 @@ The most important features of our model were as follows:
 * Customer Service Calls
 * Voicemail Plan
 
-<img src ='images/featureimportance.png'>
+<img src ='Images/featureimportance.png'>
 
 <h2> Evaluation </h2>
-<img src ='images/cm.png'>
+<img src ='Images/cm.png'>
 
 The model correctly identified 90% of churn. False Negatives accounted for 1.4% of data. That is , we said they would not churn but they did in fact churn. On closer inspection, many of these values were misclassified because they didn’t fit the general mould of our model:
 * International plan
