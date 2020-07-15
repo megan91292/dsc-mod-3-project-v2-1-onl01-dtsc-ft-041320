@@ -69,7 +69,7 @@ The average monthly charge for customers who remain with the company is $59, com
 Nearly 50% of customers who have an international plan terminate their contract. This shows that customers are very unhappy with this plan.
 
 <br>  <br>
-<img src ='Images/addon.png'> 
+<img src ='Images/Addon.png'> 
 
 
 <h2> Data Preparation</h2>
